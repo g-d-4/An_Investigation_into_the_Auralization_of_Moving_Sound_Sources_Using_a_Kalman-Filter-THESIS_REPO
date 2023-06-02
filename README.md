@@ -5,3 +5,12 @@ The code can be split into 2 parts: 2 .py files containing functions that are ca
 
 kalman_filter.py -> Contains 2 funtions, one to implement a single iteration of the Kalman filter implementation described in our thesis, and one to run the Kalman filter across the length of the measurement signal
 
+wh_noise_kalman_run.py -> The Kalman filter implementation applied to the recorded moving white noise signal in order to auralize the same
+
+ip_speech.py -> The Kalman filter implementation applied to the recorded moving speech signal in order to auralize the same
+
+ip_sine.py -> The Kalman filter implementation applied to the recorded moving sine signal in order to auralize the same
+
+PS: All the audio files are read in as arrays using np.load() as the signals were previously stored as np arrays using sf.read() and then written to binary files using np.save()/ np.savez() for increased portability
+
+Link to the Google Drive: https://drive.google.com/drive/folders/1jSTFwkyU0omvLX7l1e6CRNismbH63cZk?usp=sharing
