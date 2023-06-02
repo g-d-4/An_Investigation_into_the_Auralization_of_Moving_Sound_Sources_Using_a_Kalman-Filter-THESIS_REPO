@@ -13,4 +13,4 @@ ip_sine.py -> The Kalman filter implementation applied to the recorded moving si
 
 PS: All the audio files are read in as arrays using np.load() as the signals were previously stored as np arrays using sf.read() and then written to binary files using np.save()/ np.savez() for increased portability
 
-Link to the Google Drive: https://drive.google.com/drive/folders/1jSTFwkyU0omvLX7l1e6CRNismbH63cZk?usp=sharing
+Link to the Google Drive to hear the auralized audio files: https://drive.google.com/drive/folders/1jSTFwkyU0omvLX7l1e6CRNismbH63cZk?usp=sharing
